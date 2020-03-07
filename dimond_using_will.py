@@ -1,0 +1,65 @@
+i=0
+while i<=5:
+    j=1
+    while j<=5-i:
+        print(' ',end='')
+        j+=1
+    k=0
+    while k<=i:
+        print(k,end='')
+        k+=1
+    p=i-1
+    while p>=0:
+        print(p,end='')
+        p-=1
+    i+=1
+    print()
+x=0
+while x<=5:
+    y=1
+    while y<=0+x:
+        print(' ',end='')
+        y+=1
+    z=0
+    while z<=5-x:
+        print(z,end='')
+        z+=1
+    l=4-x
+    while l>=0:
+        print(l,end='')
+        l-=1
+    x+=1
+    print()
+
+i=1
+while i<=6:
+    j=1
+    while j<=6-i:
+        print(' ',end='')
+        j+=1
+    k=1
+    while k<=i:
+        print(k,end='')
+        k+=1
+    p=i-1
+    while p>=1:
+        print(p,end='')
+        p-=1
+    i+=1
+    print()
+t=1
+while t<=6:
+    j=1
+    while j<=t-1:
+        print(' ',end='')
+        j+=1
+    w=1
+    while w<=7-t:
+        print(w,end='')
+        w+=1
+    q=6-t
+    while q>=1:
+        print(q,end='')
+        q-=1
+    t+=1
+    print()
